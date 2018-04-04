@@ -1,0 +1,42 @@
+
+<section id="header">
+  <div class="container">
+    <h1>ENZO NAGUIAT</h1>
+    <hr>
+    <p>Fullstack Ruby on Rails Developer</p>
+    <%= link_to "<i class='fab fa-linkedin'></i>".html_safe, 'https://www.linkedin.com/in/enzo-naguiat-835ba798/' %>
+    <%= link_to "<i class='fab fa-github'></i>".html_safe, 'https://github.com/MisterEnzo' %>
+    <%= link_to "<i class='fab fa-bitbucket'></i>".html_safe, 'https://bitbucket.org/enaguiat/' %>
+    <%= link_to "<i class='fab fa-medium'></i>".html_safe, 'https://medium.com/@enzonaguiat' %>
+    <div class="techstack">
+      <p>Technologies I use:
+        <p>Ruby on Rails</p>
+        <p>HTML, CSS, JavaScript</p>
+        <p>Git, Github, BitBucket</p>
+    </div>
+  </div>
+</section>
+
+<section id="About me">
+  <div class="container">
+    <h2>About</h2>
+    <p>Le Wagon Bootcamp Alumnus. Formerly involved in the foreign-aid,
+      peace-building, development and finance sectors.</p>
+    <p>When I'm not coding, I'm probably hosting meals at <%= link_to "Bale Matua", 'http://balematua.com' %>
+      walking my huskies, playing video games, or enjoying the outdoors.</p>
+  </div>
+</section>
+
+<section id="portfolio">
+  <div class="container">
+    <h2>Recent Projects</h2>
+    <div class="portfolio">
+      <div class="portfolio-item well"><%= link_to(image_tag('counsellor.jpg',
+       height: "175", width: "300"), 'http://www.counsellor.tokyo/') %></div>
+      <div class="portfolio-item well"><%= link_to(image_tag('quartermaster.jpg',
+       height: "175", width: "300"), 'https://ib-quartermaster.herokuapp.com/') %></div>
+      <div class="portfolio-item well"><%= link_to(image_tag('railstutorial.jpg',
+       height: "175", width: "300"), "https://enz-rt-sample-app.herokuapp.com/") %></div>
+    </div>
+  </div>
+</section>
