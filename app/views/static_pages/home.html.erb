@@ -4,10 +4,14 @@
     <h1>ENZO NAGUIAT</h1>
     <hr>
     <p><strong>Fullstack Ruby on Rails Developer</strong></p>
-    <%= link_to "<i class='fab fa-linkedin'></i>".html_safe, 'https://www.linkedin.com/in/enzo-naguiat-835ba798/' %>
-    <%= link_to "<i class='fab fa-github'></i>".html_safe, 'https://github.com/MisterEnzo' %>
-    <%= link_to "<i class='fab fa-bitbucket'></i>".html_safe, 'https://bitbucket.org/enaguiat/' %>
-    <%= link_to "<i class='fab fa-medium'></i>".html_safe, 'https://medium.com/@enzonaguiat' %>
+    <%= link_to "<i class='fab fa-linkedin'></i>".html_safe, 'https://www.linkedin.com/in/enzo-naguiat-835ba798/',
+     :target => "_blank" %>
+    <%= link_to "<i class='fab fa-github'></i>".html_safe, 'https://github.com/MisterEnzo',
+     :target => "_blank" %>
+    <%= link_to "<i class='fab fa-bitbucket'></i>".html_safe, 'https://bitbucket.org/enaguiat/',
+     :target => "_blank" %>
+    <%= link_to "<i class='fab fa-medium'></i>".html_safe, 'https://medium.com/@enzonaguiat',
+     :target => "_blank" %>
     <div class="techstack">
       <p><strong>Technologies I use:</strong></p>
         <p>Ruby on Rails</p>
@@ -22,7 +26,8 @@
     <h2>About</h2>
     <p>Le Wagon Bootcamp Alumnus. Formerly involved in the foreign-aid,
       peace-building, development and finance sectors.</p>
-    <p>When I'm not coding, I'm probably hosting meals at <%= link_to "Bale Matua", 'http://balematua.com' %>
+    <p>When I'm not coding, I'm probably hosting meals at <%= link_to "Bale Matua",
+     'http://balematua.com', :target => "_blank" %>
       walking my huskies, playing video games, or enjoying the outdoors.</p>
   </div>
 </section>
@@ -33,12 +38,15 @@
     <div class="portfolio">
       <div class="portfolio-item well"><%= link_to(image_tag('counsellor.jpg',
        height: "175", width: "300"), 'http://www.counsellor.tokyo/') %>
-         <%= link_to 'Le Wagon App Demo', 'https://youtu.be/yzyHbPqFCz8?t=26m51s' %>
+         <%= link_to 'Le Wagon App Demo', 'https://youtu.be/yzyHbPqFCz8?t=26m51s',
+         :target => "_blank" %>
        </div>
       <div class="portfolio-item well"><%= link_to(image_tag('quartermaster.jpg',
-       height: "175", width: "300"), 'https://ib-quartermaster.herokuapp.com/') %></div>
+       height: "175", width: "300"), 'https://ib-quartermaster.herokuapp.com/',
+       :target => "_blank") %></div>
       <div class="portfolio-item well"><%= link_to(image_tag('railstutorial.jpg',
-       height: "175", width: "300"), "https://enz-rt-sample-app.herokuapp.com/") %></div>
+       height: "175", width: "300"), "https://enz-rt-sample-app.herokuapp.com/",
+       :target => "_blank") %></div>
     </div>
   </div>
 </section>
